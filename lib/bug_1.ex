@@ -1,10 +1,10 @@
 defmodule Cashy.Bug1 do
   #will trigger arithmetic error
-  def convert(:sgd, :usd, amount) do
-    {:ok, amount * 0.70}
-  end
+  # def convert(:sgd, :usd, amount) do
+  #   {:ok, amount * 0.70}
+  # end
 
-  def run do
-    convert(:sgd, :usd, :one_million_dollars)
-  end 
+  # def run do
+  #   convert(:sgd, :usd, :one_million_dollars)
+  # end 
 end
