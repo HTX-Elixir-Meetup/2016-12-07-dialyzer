@@ -111,18 +111,6 @@ Reference modules
 Dialyzer doesn't require typespecs to run and catch errors. However, the @specs act as hints for the program and can help it with developing better constraints. The @spec flag will tell dialyzer to include this information in the PLT.
 
 
-## Tricking Dialyzer
-
-## Union Types
-
-## OK, but help me read these messages
-
-
-## Exporting Types
-
-
-
-
 ## Sources:
 [Dialyzer](http://erlang.org/doc/man/dialyzer.html) documentation
 
